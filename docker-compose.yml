@@ -2,7 +2,7 @@ services:
 
   db:
     image: postgres:18
-    container_name: db_manager
+    container_name: db_manager_pro
     restart: unless-stopped
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -15,7 +15,7 @@ services:
       retries: 10
       start_period: 15s
     volumes:
-      - ./database/data:/var/lib/postgresql
+      - ./database/data:/var/lib/postgresql/
     networks:
       - app_network
 
@@ -23,7 +23,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: backend_manage
+    container_name: backend_manage_pro
     restart: unless-stopped
     env_file:
       - ./backend/.env
@@ -37,7 +37,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: manager
+    container_name: manager_front
     restart: unless-stopped
     env_file:
       - ./frontend/.env

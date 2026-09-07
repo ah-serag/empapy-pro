@@ -381,6 +381,7 @@ const toggleUserStatus = async (req, res) => {
   }
 };
 
+
 const deleteUser = async (req, res) => {
   try {
     const { id } = req.params;
@@ -397,8 +398,7 @@ const deleteUser = async (req, res) => {
     const excludedRoles = ['admin', 'superadmin', 'client'];
 
     if (!excludedRoles.includes(userRole)) {
-
-      // فحص 1: هل المستخدم (من خلال عضويته في الـ team_members) مرتبط بأي مهمة تنفيذية في job_execution_members؟
+      // فحص 1: هل المستخدم مرتبط بمهام؟
       const assignmentCheck = await pool.query(`
         SELECT 1 
         FROM job_execution_members jem
@@ -433,6 +433,18 @@ const deleteUser = async (req, res) => {
       }
     }
 
+    // --- الإضافة الجديدة لحل المشكلة ---
+    // فحص 4: هل المستخدم قام بإصدار فواتير؟ (يطبق على الجميع حتى لا تضرب قاعدة البيانات)
+    const invoiceCheck = await pool.query(`SELECT 1 FROM invoices WHERE issued_by = $1 LIMIT 1`, [id]);
+    if (invoiceCheck.rowCount > 0) {
+      return res.status(409).json({ 
+        success: false, 
+        message: "لا يمكن حذف هذا المستخدم لارتباطه بفواتير (Invoices) قام بإصدارها. السجلات المالية تمنع الحذف." 
+      });
+    }
+    // ------------------------------------
+
+    // حذف الجلسات ثم حذف المستخدم
     await pool.query(`DELETE FROM user_sessions WHERE user_id = $1`, [id]);
     await pool.query(`DELETE FROM users WHERE id = $1`, [id]);
 
@@ -446,8 +458,6 @@ const deleteUser = async (req, res) => {
     return res.status(500).json({ success: false, message: "Internal Server Error" });
   }
 };
-
-
 
 
 const getUsersForDropdown = async (req, res) => {
