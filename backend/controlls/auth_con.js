@@ -398,7 +398,15 @@ const deleteUser = async (req, res) => {
 
     if (!excludedRoles.includes(userRole)) {
 
-      const assignmentCheck = await pool.query(`SELECT 1 FROM job_execution_members WHERE user_id = $1 LIMIT 1`, [id]);
+      // فحص 1: هل المستخدم (من خلال عضويته في الـ team_members) مرتبط بأي مهمة تنفيذية في job_execution_members؟
+      const assignmentCheck = await pool.query(`
+        SELECT 1 
+        FROM job_execution_members jem
+        JOIN team_members tm ON jem.member_id = tm.id
+        WHERE tm.user_id = $1 
+        LIMIT 1
+      `, [id]);
+
       if (assignmentCheck.rowCount > 0) {
         return res.status(409).json({ 
           success: false, 
@@ -415,6 +423,7 @@ const deleteUser = async (req, res) => {
         });
       }
 
+      // فحص 3: هل المستخدم مشرف على فريق؟
       const supervisorCheck = await pool.query(`SELECT 1 FROM teams WHERE supervisor_id = $1 LIMIT 1`, [id]);
       if (supervisorCheck.rowCount > 0) {
         return res.status(409).json({ 
@@ -437,7 +446,6 @@ const deleteUser = async (req, res) => {
     return res.status(500).json({ success: false, message: "Internal Server Error" });
   }
 };
-
 
 
 
