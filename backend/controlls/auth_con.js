@@ -398,7 +398,7 @@ const deleteUser = async (req, res) => {
 
     if (!excludedRoles.includes(userRole)) {
 
-      const assignmentCheck = await pool.query(`SELECT 1 FROM assignment_members WHERE user_id = $1 LIMIT 1`, [id]);
+      const assignmentCheck = await pool.query(`SELECT 1 FROM job_execution_members WHERE user_id = $1 LIMIT 1`, [id]);
       if (assignmentCheck.rowCount > 0) {
         return res.status(409).json({ 
           success: false, 
