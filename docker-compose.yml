@@ -2,7 +2,7 @@ services:
 
   db:
     image: postgres:18
-    container_name: db_manager_pro
+    container_name: db_manager
     restart: unless-stopped
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -23,7 +23,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    container_name: backend_manage_pro
+    container_name: backend_manage
     restart: unless-stopped
     env_file:
       - ./backend/.env
@@ -37,7 +37,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: manager_front
+    container_name: manager
     restart: unless-stopped
     env_file:
       - ./frontend/.env
