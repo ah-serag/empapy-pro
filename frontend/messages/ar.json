@@ -1,0 +1,1334 @@
+{
+
+  "Navbar": {
+    "home": "الرئيسية",
+    "about": "عن الشركة",
+    "services": "خدماتنا",
+    "contact": "تواصل معنا",
+    "bookNow": "احجز الآن" ,
+    "supportText": "خدمة عملاء وورش صيانة على مدار الساعة"
+  } ,
+"Hero": {
+    "badge": "راحة تستحقها -  جودة تثق بها",
+    "titleLine1": "راحة تستحقها",
+    "titleLine2": "في كل زاوية من منزلك",
+    "description": "استمتع بالهدوء التام والهواء النقي مع خدماتنا المتميزة في تركيب وصيانة التكييفات. خبراء معتمدون لضمان راحتك على مدار الساعة.",
+    "bookNow": "احجز موعدك الآن",
+    "exploreServices": "تواصل معنا",
+    "feature1": "خبراء معتمدون",
+    "feature2": "استجابة فورية"
+  } ,
+  "Services": {
+    "subtitle": "الخدمات",
+    "titleLine1": "حلول تكييف متكاملة",
+    "titleLine2": "لكل المساحات",
+    "description": "من الإصلاحات السريعة إلى التركيبات الشاملة، نقدم خدمات تكييف موثوقة ومصممة خصيصاً لتلبية احتياجاتك بأعلى معايير الجودة.",
+    "badge": {
+      "title": "فنيون معتمدون",
+      "desc": "مدربون. مؤهلون. موثوقون."
+    },
+    "service1": {
+      "title": "صيانة التكييفات",
+      "desc": "تشخيص سريع وإصلاح احترافي لجميع الماركات العالمية لضمان عودة التبريد فوراً."
+    },
+    "service2": {
+      "title": "التركيب والاستبدال",
+      "desc": "تركيب احترافي للأنظمة الموفرة للطاقة مع ضمان الجودة والأداء المثالي."
+    },
+    "service3": {
+      "title": "الصيانة الدورية",
+      "desc": "صيانة منتظمة لتحسين أداء الجهاز وإطالة عمره الافتراضي ومنع الأعطال المفاجئة."
+    },
+    "service4": {
+      "title": "الخدمات التجارية",
+      "desc": "حلول موثوقة للشركات، المكاتب، والمحلات التجارية والمرافق الكبيرة."
+    },
+    "trust1": {
+      "title": "معتمدون ومؤمن عليهم",
+      "desc": "سلامتك وممتلكاتك هي أولويتنا القصوى."
+    },
+    "trust2": {
+      "title": "طوارئ على مدار الساعة",
+      "desc": "نحن هنا من أجلك متى احتجت إلينا."
+    },
+    "trust3": {
+      "title": "ضمان الرضا التام",
+      "desc": "خدمة عالية الجودة يمكنك الوثوق بها."
+    },
+    "trust4": {
+      "title": "حلول موفرة للطاقة",
+      "desc": "راحة أفضل، بتكاليف استهلاك أقل."
+    }
+  } 
+,
+
+ "Locations": {
+    "governorate": "المحافظة",
+    "zone": "المنطقة / المركز",
+    "selectGovernorate": "اختر المحافظة",
+    "selectGovernorateFirst": "اختر المحافظة أولاً",
+    "noZonesAvailable": "لا توجد مناطق متاحة",
+    "selectZone": "اختر المنطقة",
+    "loading": "جاري تحميل المواقع..."
+  } ,
+
+
+  "ViewBookingModal": {
+    "bookingDetails": "تفاصيل الحجز",
+    "ref": "المرجع",
+    "id": "المعرف",
+    "created": "أنشئ في",
+    "null": "غير متوفر",
+    "operationalStatus": "الحالة التشغيلية",
+    "financialStatus": "الحالة المالية",
+    "clientIdentification": "بيانات العميل",
+    "fullName": "الاسم الكامل",
+    "phoneNumber": "رقم الهاتف",
+    "whatsApp": "واتساب",
+    "emailAddress": "البريد الإلكتروني",
+    "logisticsLocation": "الخدمات اللوجستية والموقع",
+    "governorateZone": "المحافظة / المنطقة",
+    "streetAddress": "عنوان الشارع",
+    "googleMapsLink": "رابط خرائط جوجل",
+    "openInMaps": "فتح في الخرائط",
+    "editLink": "تعديل الرابط",
+    "addLink": "إضافة رابط",
+    "temporalData": "البيانات الزمنية",
+    "preferredDate": "التاريخ المفضل",
+    "timeFrom": "الوقت من",
+    "timeTo": "الوقت إلى",
+    "source" : "مصدر الحجز" ,
+
+    "systemAudit": "النظام والتدقيق",
+    "bookingId": "معرف الحجز",
+    "lastUpdatedAt": "آخر تحديث في",
+    "diagnosticsRemarks": "التشخيص والملاحظات",
+    "clientNotes": "ملاحظات العميل",
+    "cancellationReason": "سبب الإلغاء",
+    "assignment": "التعيين",
+    "teamId": "رقم الفريق",
+    "assignmentNotes": "ملاحظات التعيين",
+    "enterTeamId": "أدخل رقم الفريق",
+    "enterNotes": "أدخل الملاحظات...",
+    "createAssignment": "إنشاء تعيين",
+    "creating": "جاري الإنشاء...",
+    "status": {
+      "pending": "قيد الانتظار",
+      "confirmed": "مؤكد",
+      "scheduled": "مجدول",
+      "in_progress": "قيد التنفيذ",
+      "completed": "مكتمل",
+      "cancelled": "ملغي",
+      "rejected": "مرفوض"
+    },
+    "paymentStatus": {
+      "unpaid": "غير مدفوع",
+      "partial": "مدفوع جزئياً",
+      "paid": "مدفوع",
+      "refunded": "مسترجع"
+    }
+  },
+  "SelectTeam": {
+    "label": "تعيين الفريق",
+    "placeholder": "اختر فريقاً...",
+    "loading": "جاري تحميل الفرق...",
+    "error": "فشل في تحميل الفرق"
+  },
+  "NavbarManager": {
+    "managerPanel": "لوحة المدير",
+    "nav": {
+      "dashboard" :{
+         "title" : "لوحه التحكم"
+      },
+      "coreData": {
+        "title": "البيانات الأساسية",
+        "items": {
+          "locations": {
+            "title": "المواقع"
+          },
+          "serviceCategories": {
+            "title": "فئات الخدمات"
+          }
+        }
+      },
+      "treasury": {
+    "title": "الخزينة والحسابات",
+    "items": {
+      "safes": {
+        "title": "الخزائن والبنوك"
+      },
+      "accounts": {
+        "title": "شجرة الحسابات"
+      },
+      "transactions": {
+        "title": "حركات الخزينة"
+      },
+      "expenses": {
+        "title": "المصروفات"
+      },
+      "collections": {
+        "title": "العهد والتحصيلات"
+      } ,
+      "vouchers_list": {
+       "title": "سجل السندات المالية"
+      },
+   "create_voucher": {
+  "title": "إصدار سند (قبض/صرف)"
+} ,
+"advances": {
+  "title": "السلف"
+}
+    }
+  } ,
+  
+"finance": {
+    "title": "المالية والرواتب",
+    "items": {
+      "technicianProfiles": {
+        "title": "الرتب المالية للفنيين"
+      },
+      "technicianEarnings": {
+        "title": "سجل العمولات والأرباح"
+      },
+      "technicianSettlement": {
+        "title": "صرف وتسوية النقدية"
+      },
+      "settlementsHistory": {
+        "title": "أرشيف التسويات"
+      }
+    }
+  } ,
+      "teamUsers": {
+        "title": "الفريق والمستخدمين",
+        "items": {
+          "users": {
+            "title": "المستخدمين"
+          },
+          "teams": {
+            "title": "الفرق"
+          },
+          "createAccount": {
+            "title": "إنشاء حساب"
+          }
+        }
+      },
+      "bookings": {
+        "title": "الحجوزات"
+      },
+      "notifications": {
+        "title": "الإشعارات"
+      },
+      "assignments": {
+  "title": "التكليفات"
+
+      },
+      "job": {
+      "title" : "مراجعة العمل"
+    },
+    
+      "create-file": {
+      "title" : "إنشاء ملف"
+    },
+    "invoices" :{
+        "title": "إدارة الفواتير"
+      }  ,
+      "warehouse": {
+      "title": "إدارة المخازن",
+      "items": {
+        "categories": {
+          "title": "أقسام المخزن"
+        },
+        "materials": {
+          "title": "الكتالوج والأرصدة"
+        },
+       
+        "search": {
+          "title": "عرض المخزون"
+        },
+          "transactions":{
+          "title" : "تحركات المخزن"
+        }
+      }
+    } ,
+    "purchases": {
+      "title": "المشتريات والموردين",
+      "items": {
+        "suppliers": {
+          "title": "إدارة الموردين"
+        },
+        "invoices": {
+          "title": "فواتير المشتريات"
+        },
+        "new_invoice": {
+          "title": "فاتورة مشتريات جديدة"
+        },
+        "supplier_transactions": {
+          "title": "كشوف حساب الموردين"
+        }
+      }
+    }
+    
+    }
+  },
+  "UsersManagementPage": {
+    "header": {
+      "title": "دليل المستخدمين",
+      "description": "إدارة صلاحيات الوصول للنظام، مراقبة أدوار المستخدمين، وتصفية السجلات بكفاءة."
+    },
+    "stats": {
+      "totalUsers": "إجمالي المستخدمين في قاعدة البيانات"
+    },
+    "controls": {
+      "searchPlaceholder": "البحث بالاسم، البريد الإلكتروني، أو الهاتف...",
+      "roles": {
+        "all": "جميع الأدوار",
+        "superadmin": "مدير عام",
+        "admin": "مسؤول",
+        "supervisor": "مشرف",
+        "technician": "فني",
+        "client": "عميل"
+      },
+      "status": {
+        "all": "جميع الحالات",
+        "active": "النشطين فقط",
+        "inactive": "غير النشطين فقط"
+      }
+    },
+    "loading": "جاري تحميل مستخدمي النظام...",
+    "noResults": "لم يتم العثور على مستخدمين يطابقون معايير البحث.",
+    "table": {
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "role": "الدور",
+      "status": "الحالة",
+      "registered": "تاريخ التسجيل",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "actions": {
+      "activate": "تفعيل المستخدم",
+      "deactivate": "تعطيل المستخدم",
+      "delete": "حذف حساب المستخدم",
+      "deleteBtn": "حذف"
+    },
+    "mobile": {
+      "joined": "انضم في"
+    },
+    "pagination": {
+      "showingRows": "عرض الصفوف",
+      "of": "من",
+      "totalResults": "إجمالي النتائج",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "صفحة",
+      "ofPage": "من"
+    },
+    "modal": {
+      "title": "هل أنت متأكد تماماً؟",
+      "descriptionStart": "سيتم حذف حساب",
+      "descriptionEnd": "بشكل دائم وحذف جميع البيانات المرتبطة به. لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirmDelete": "حذف الحساب"
+    },
+    "toast": {
+      "statusUpdated": "تم تحديث حالة المستخدم بنجاح.",
+      "statusFailed": "فشل في تغيير حالة المستخدم.",
+      "userDeleted": "تم حذف المستخدم بنجاح.",
+      "deleteFailed": "فشل في حذف حساب المستخدم.",
+      "loadFailed": "فشل في تحميل بيانات المستخدمين"
+    }
+  },
+  "TeamsOperations": {
+    "header": {
+      "title": "عمليات الفرق",
+      "description": "تنظيم الفرق الفنية، تعيين المشرفين، وإدارة المناطق الجغرافية.",
+      "createBtn": "إنشاء فريق جديد"
+    },
+    "stats": {
+      "totalTeams": "إجمالي الفرق العاملة"
+    },
+    "filters": {
+      "search": "ابحث عن الفرق...",
+      "allServices": "جميع أنواع الخدمات",
+      "installation": "تركيب",
+      "maintenance": "صيانة",
+      "mixed": "متنوع",
+      "allStatuses": "جميع الحالات",
+      "activeOnly": "النشطة فقط",
+      "inactiveOnly": "غير النشطة فقط"
+    },
+    "loading": "جاري تحميل الفرق العاملة...",
+    "noResults": "لم يتم العثور على فرق تطابق معايير البحث.",
+    "table": {
+      "view": "عرض",
+      "profile": "ملف الفريق",
+      "member": "اعضاء الفريق",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "activeTeam": "فريق نشط",
+      "inactiveTeam": "فريق غير نشط"
+    },
+    "actions": {
+      "manageMembers": "الأعضاء"
+    },
+    "pagination": {
+      "showing": "عرض",
+      "of": "من",
+      "results": "النتائج",
+      "rows": "الصفوف",
+      "page": "صفحة"
+    },
+    "createEdit": {
+      "createTitle": "إنشاء فريق جديد",
+      "editTitle": "تعديل فريق العمل",
+      "teamName": "اسم الفريق",
+      "teamNamePlaceholder": "مثال: فريق القاهرة للتركيبات",
+      "serviceType": "نوع الخدمة",
+      "geographicalCoverage": "التغطية الجغرافية",
+      "supervisor": "المشرف",
+      "selectSupervisor": "اختر مشرفاً",
+      "maxDailyTasks": "الحد الأقصى للمهام اليومية",
+      "saveChanges": "حفظ التغييرات",
+      "deployTeam": "نشر الفريق"
+    },
+    "view": {
+      "title": "تفاصيل ملف الفريق",
+      "tasksDay": "مهام/يوم",
+      "supervisor": "المشرف",
+      "noSupervisor": "لا يوجد مشرف معين",
+      "operatingZone": "منطقة العمل",
+      "noZone": "لم يتم تعيين منطقة",
+      "assignedAgents": "الوكلاء المعينون",
+      "noAgents": "لا يوجد وكلاء نشطين معينين لهذا الفريق."
+    },
+    "members": {
+      "title": "إدارة قائمة الفريق",
+      "assignTechnician": "تعيين فني",
+      "chooseRoster": "اختر من القائمة...",
+      "assignBtn": "تعيين",
+      "activeAgents": "الوكلاء الميدانيون النشطون",
+      "removeBtn": "إزالة",
+      "noActiveMembers": "لم يتم تعيين أعضاء نشطين بعد."
+    },
+    "roles": {
+      "leader": "قائد",
+      "member": "عضو",
+      "trainee": "متدرب"
+    },
+    "delete": {
+      "title": "تفكيك الفريق؟",
+      "descriptionStart": "سيؤدي هذا إلى حذف فريق",
+      "descriptionEnd": "بشكل دائم وإعفاء جميع الوكلاء من هذه المهمة.",
+      "confirm": "حذف الفريق"
+    },
+    "common": {
+      "cancel": "إلغاء"
+    },
+    "toast": {
+      "teamCreated": "تم إنشاء الفريق بنجاح!",
+      "teamUpdated": "تم تحديث الفريق بنجاح!",
+      "errorSavingTeam": "حدث خطأ أثناء حفظ الفريق",
+      "teamDeleted": "تم حذف الفريق بنجاح!",
+      "errorDeletingTeam": "لا يمكن حذف الفريق.",
+      "memberAdded": "تم إضافة العضو إلى الفريق بنجاح!",
+      "errorAddingMember": "فشل في إضافة العضو إلى الفريق",
+      "memberRemoved": "تمت إزالة العضو من الفريق بنجاح!",
+      "errorRemovingMember": "فشل في إزالة العضو"
+    }
+  },
+  "CreateAccountPage": {
+    "header": {
+      "title": "إنشاء حساب جديد",
+      "description": "قم بإنشاء حسابات جديدة للمديرين، المشرفين، أو الفنيين.",
+      "backBtn": "العودة للقائمة"
+    },
+    "form": {
+      "fullName": "الاسم الكامل",
+      "fullNamePh": "مثال: أحمد علي",
+      "phone": "رقم الهاتف",
+      "phonePh": "01xxxxxxxxx",
+      "email": "البريد الإلكتروني",
+      "emailPh": "name@company.com",
+      "password": "كلمة المرور",
+      "passwordPh": "••••••••",
+      "systemRole": "صلاحية النظام (الدور)",
+      "roleHint": "حدد مستوى الوصول المناسب. هذا يحدد ما يمكن للمستخدم رؤيته والقيام به داخل النظام."
+    },
+    "roles": {
+      "admin": "مسؤول (Admin)",
+      "supervisor": "مشرف (Supervisor)",
+      "technician": "فني (Technician)",
+      "client": "عميل (Client)"
+    },
+    "buttons": {
+      "submit": "إنشاء الحساب",
+      "creating": "جاري الإنشاء..."
+    }
+  },
+  "bookingManager": {
+    "header": {
+      "title": "إدارة الحجوزات",
+      "subtitle": "نظرة عامة شاملة وتحكم منهجي في جميع الطلبات الواردة."
+    },
+    "buttons": {
+      "newBooking": "حجز جديد",
+      "confirm": "تأكيد",
+      "createAssignment": "إنشاء تكليف",
+      "cancelBooking": "إلغاء الحجز",
+      "permanentlyDelete": "حذف نهائي",
+      "back": "رجوع",
+      "confirmCancellation": "تأكيد الإلغاء",
+      "cancel": "إلغاء",
+      "saveLocation": "حفظ الموقع"
+    },
+    "filters": {
+      "searchPlaceholder": "البحث بالمرجع، الاسم، الهاتف...",
+      "statusFilter": "تصفية بالحالة",
+      "allStatuses": "جميع الحالات",
+      "paymentFilter": "تصفية بالدفع",
+      "allPayments": "جميع المدفوعات"
+    },
+    "status": {
+      "pending": "قيد الانتظار",
+      "confirmed": "مؤكد",
+      "scheduled": "مُجدول",
+       "assigned" : " تم التكليف" , 
+      "in_progress": "قيد التنفيذ",
+      "completed": "مكتمل",
+      "cancelled": "ملغي",
+      "rejected": "مرفوض"
+    },
+    "payment": {
+      "unpaid": "غير مدفوع",
+      "partial": "مدفوع جزئياً",
+      "paid": "مدفوع",
+      "refunded": "مسترد"
+    },
+  "dialogs": {
+      "cancelTitle": "إلغاء الحجز",
+      "cancelDesc": "يرجى تقديم سبب لإلغاء هذا الحجز.",
+      "cancelReasonPlaceholder": "سبب الإلغاء...",
+      "locationTitle": "تحديث رابط الموقع",
+      "locationDesc": "قم بلصق رابط خرائط جوجل المقدم من العميل.",
+      "locationPlaceholder": "مثال: https://maps.app.goo.gl/...",
+      "deleteTitle": "حذف الحجز نهائياً",
+      "deleteDesc": "هل أنت متأكد أنك تريد حذف هذا الحجز نهائياً؟ لا يمكن التراجع عن هذا الإجراء بعد إتمامه."
+    },
+    "table": {
+      "view": "عرض",
+      "reference": "المرجع",
+      "customer": "العميل",
+      "location": "الموقع",
+      "date": "التاريخ",
+      "status": "الحالة",
+      "payment": "الدفع",
+      "actions": "الإجراءات",
+      "loading": "جاري تحميل السجلات...",
+      "error": "فشل في استرداد الحجوزات.",
+      "noData": "لم يتم العثور على سجلات تطابق معايير البحث.",
+      "quickActions": "إجراءات سريعة",
+      "noLocation": "لا يوجد موقع",
+      "noZone": "لا توجد منطقة"
+    },
+    "toasts": {
+      "confirmSuccess": "تم تأكيد الحجز بنجاح",
+      "confirmError": "حدث خطأ أثناء تأكيد الحجز",
+      "cancelReasonRequired": "سبب الإلغاء مطلوب",
+      "cancelSuccess": "تم إلغاء الحجز بنجاح",
+      "cancelError": "حدث خطأ أثناء إلغاء الحجز",
+      "deleteSuccess": "تم حذف الحجز بنجاح",
+      "deleteError": "حدث خطأ أثناء حذف الحجز",
+      "statusUpdated": "تم تحديث الحالة بنجاح",
+      "paymentUpdated": "تم تحديث الدفع بنجاح",
+      "updateError": "حدث خطأ أثناء التحديث",
+      "locationSuccess": "تم تحديث رابط الموقع بنجاح",
+      "locationError": "فشل في تحديث رابط الموقع"
+    },
+    "alerts": {
+      "confirmDelete": "هل أنت متأكد أنك تريد حذف هذا الحجز نهائياً؟"
+    },
+    "pagination": {
+      "previous": "السابق",
+      "next": "التالي",
+      "page": "صفحة",
+      "of": "من" ,
+      "totalRecords": "إجمالي السجلات:"
+    }
+  },
+  "notifications": {
+    "header": {
+      "title": "الإشعارات",
+      "subtitle": "ابقَ على اطلاع بأحدث نشاطات النظام."
+    },
+    "buttons": {
+      "markAllAsRead": "تحديد الكل كمقروء",
+      "deleteAll": "حذف الكل",
+      "cancel": "إلغاء",
+      "confirmDelete": "حذف نهائي"
+    },
+    "tabs": {
+      "all": "الكل",
+      "unread": "غير مقروء",
+      "read": "مقروء"
+    },
+    "states": {
+      "loading": "جاري تحميل الإشعارات...",
+      "error": "فشل في تحميل الإشعارات.",
+      "empty": "لا توجد إشعارات حالياً!"
+    },
+    "pagination": {
+      "showing": "عرض صفحة",
+      "of": "من",
+      "prev": "السابق",
+      "next": "التالي"
+    },
+    "dialogs": {
+      "deleteAllTitle": "حذف جميع الإشعارات",
+      "deleteAllDesc": "هل أنت متأكد أنك تريد حذف جميع الإشعارات نهائياً؟ لا يمكن التراجع عن هذا الإجراء."
+    },
+    "toasts": {
+      "markReadError": "فشل في تحديث حالة الإشعار.",
+      "markAllReadSuccess": "تم تحديد جميع الإشعارات كمقروءة.",
+      "actionError": "حدث خطأ أثناء التحديث.",
+      "deleteSuccess": "تم حذف الإشعار بنجاح.",
+      "deleteAllSuccess": "تم حذف جميع الإشعارات بنجاح.",
+      "deleteError": "فشل في عملية الحذف."
+    }
+  } ,
+ "assignments":{
+  "header": {
+    "title": "المهام والتكليفات",
+    "subtitle": "إدارة وتتبع تكليفات الفرق ومواقع الحجوزات."
+  },
+  "filters": {
+    "searchPlaceholder": "ابحث بالرقم المرجعي، اسم العميل، اسم الفريق",
+    "statusFilter": "تصفية حسب الحالة",
+    "allStatuses": "جميع الحالات"
+  },
+  "status": {
+    "pending": "قيد الانتظار",
+    "in_progress": "جاري التنفيذ",
+    "completion_pending": "بانتظار الإغلاق",
+    "needs_review" :"يجب مراجعته" ,
+    "completed": "مكتمل",
+    "cancelled": "ملغي"
+  },
+  "table": {
+    "ref": "المرجع",
+    "clientInfo": "الحجز والعميل",
+    "location": "الموقع",
+    "team": "الفريق المكلف",
+    "date": "التاريخ المحدد",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "loading": "جاري تحميل بيانات التكليفات...",
+    "error": "فشل تحميل البيانات. يرجى المحاولة مرة أخرى.",
+    "noData": "لم يتم العثور على تكليفات مطابقة لبحثك.",
+    "invoiceIssued": "تم إصدار الفاتورة",
+    "issueInvoice": "إصدار فاتورة"
+  },
+  "actions": {
+    "markPending": "تحديد كـ قيد الانتظار",
+    "markInProgress": "تحديد كـ جاري التنفيذ",
+    "markCompleted": "تحديد كـ مكتمل",
+    "cancelAssignment": "إلغاء التكليف",
+    "delete": "حذف التكليف"
+  },
+  "pagination": {
+    "showing": "عرض",
+    "of": "من",
+    "results": "نتيجة",
+    "rows": "صفوف لكل صفحة",
+    "page": "صفحة"
+  },
+  "dialogs": {
+    "deleteTitle": "حذف التكليف",
+    "deleteDesc": "هل أنت متأكد من حذف هذا التكليف؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancelTitle": "إلغاء التكليف",
+    "cancelDesc": "يرجى كتابة سبب الإلغاء بوضوح. هذا الحقل مطلوب للمتابعة ولأغراض المراجعة الإدارية.",
+    "cancelReasonPlaceholder": "مثال: العميل قام بإلغاء الموعد، أو لم يتم الاتفاق على السعر..." ,
+    "cancelBookingLabel": "إلغاء الحجز الأساسي المرتبط بهذا التكليف بالكامل",
+"cancelBookingHint": "إذا تركت هذا الخيار فارغاً، سيعود الحجز لقائمة الحجوزات لتعيينه لفريق آخر."
+  },
+  "buttons": {
+    "cancel": "إلغاء",
+    "confirmDelete": "نعم، احذف",
+    "confirmCancel": "تأكيد الإلغاء",
+    "canceling": "جاري الإلغاء..."
+  },
+  "toasts": {
+    "deleteSuccess": "تم حذف التكليف بنجاح",
+    "deleteError": "فشل حذف التكليف",
+    "statusSuccess": "تم تحديث الحالة بنجاح",
+    "statusError": "فشل تحديث الحالة",
+    "cancelSuccess": "تم إلغاء التكليف بنجاح",
+    "cancelReasonRequired": "يجب كتابة سبب الإلغاء للمتابعة"
+  },
+  "invoices": {
+    "modal": {
+      "title": "إصدار فاتورة جديدة",
+      "subtotal_label": "المبلغ الإجمالي",
+      "subtotal_placeholder": "مثال: ١٥٠٠",
+      "discount_label": "الخصم (إن وجد)",
+      "discount_placeholder": "مثال: ٥٠",
+      "notes_label": "ملاحظات (اختياري)",
+      "notes_placeholder": "أي ملاحظات إضافية للفاتورة...",
+      "cancel": "إلغاء",
+      "submit": "تأكيد وإصدار",
+      "loading": "جاري الإصدار..."
+    },
+    "success": {
+      "created": "تم إصدار الفاتورة بنجاح."
+    }
+  }
+},
+  "Unauthorized": {
+    "title": "وصول غير مصرح",
+    "description": "عذراً، حسابك الحالي لا يملك الصلاحيات اللازمة للوصول إلى لوحة الإدارة.",
+    "suggestion": "إذا كنت تعتقد أن هذه رسالة بالخطأ، يرجى التواصل مع الدعم الفني، أو يمكنك العودة إلى الصفحة الرئيسية للمتابعة.",
+    "homeBtn": "العودة للرئيسية",
+    "supportBtn": "الدعم الفني",
+    "switchLang": "English"
+  },
+  "invoicesPage": {
+    "header": {
+      "title": "الفواتير",
+      "subtitle": "إدارة ومتابعة جميع الفواتير وحالات الدفع"
+    },
+    "success": {
+      "updated": "تم التحديث بنجاح"
+    },
+    "filters": {
+      "searchPlaceholder": "بحث برقم الفاتورة، العميل، التليفون...",
+      "statusFilter": "حالة الفاتورة",
+      "allStatuses": "جميع الحالات"
+    },
+    "status": {
+      "draft": "مسودة",
+      "paid": "مدفوعة بالكامل",
+      "cancelled": "ملغاة",
+      "unpaid": "غير مدفوعة",
+      "partially_paid": "مدفوعة جزئياً"
+    },
+    "table": {
+      "loading": "جاري تحميل الفواتير...",
+      "error": "حدث خطأ أثناء جلب البيانات.",
+      "noData": "لا توجد فواتير تطابق بحثك.",
+      "invoiceInfo": "بيانات الفاتورة",
+      "clientInfo": "بيانات العميل",
+      "teamInfo": "الفريق",
+      "financials": "الماليات",
+      "status": "الحالة",
+      "actions": "إجراءات"
+    },
+    "actions": {
+      "markPaid": "تحديد كمدفوعة",
+      "markDraft": "إرجاع لمسودة",
+      "markCancelled": "إلغاء الفاتورة",
+      "delete": "حذف الفاتورة"
+    },
+    "pagination": {
+      "showing": "عرض",
+      "of": "من",
+      "results": "نتيجة",
+      "rows": "الصفوف",
+      "page": "صفحة"
+    }
+  } ,
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "bookings": {
+      "title": "إحصائيات الحجوزات",
+      "total": "إجمالي الحجوزات",
+      "statuses": {
+        "assigned": "تم التعيين",
+        "rejected": "مرفوض",
+        "completed": "مكتمل",
+        "confirmed": "مؤكد",
+        "cancelled": "ملغي",
+        "in_progress": "قيد التنفيذ",
+        "scheduled": "مُجدول",
+        "pending": "قيد الانتظار"
+      }
+    } ,
+    "financial": {
+      "title": "الملخص المالي",
+      "total_revenue": "إجمالي الإيرادات",
+      "collected_revenue": "المبالغ المُحصلة",
+      "pending_revenue": "المبالغ المتأخرة",
+      "currency": "ج.م"
+    } , 
+ "invoices": {
+      "title": "حالة الفواتير",
+      "total": "إجمالي الفواتير",
+      "statuses": {
+        "paid": "مدفوعة",
+        "draft": "مسودة",
+      "partially_paid" : "مدفوعة جزئياً",
+
+        "cancelled": "ملغاة"
+      }
+    } ,"expenses": {
+      "title": "إحصائيات المصروفات",
+      "statuses": {
+        "PENDING_APPROVAL": "بانتظار الموافقة",
+        "APPROVED": "تمت الموافقة",
+        "REJECTED": "مرفوضة"
+      }
+    },
+    "collections": {
+      "title": "إحصائيات التحصيلات",
+      "statuses": {
+        "PENDING": "عهدة لدى الفني",
+        "REMITTED": "تم التوريد للخزنة"
+      }
+    },
+    "assignments": {
+      "title": "مهام الفرق",
+      "total": "إجمالي المهام",
+      "statuses": {
+        "in_progress": "قيد التنفيذ",
+        "pending": "قيد الانتظار",
+        "completed": "مكتملة"
+      }
+    } ,
+    "teams": {
+      "title": "إحصائيات الفرق",
+      "total_teams": "إجمالي الفرق",
+      "available_teams": "الفرق المتاحة للعمل",
+      "total_members": "إجمالي الفنيين والأعضاء"
+    },
+    "users": {
+      "title": "إحصائيات المستخدمين",
+      "total": "إجمالي الحسابات",
+      "roles": {
+        "superadmin": "مدير النظام العام",
+        "admin": "مدير",
+        "supervisor": "مشرف",
+        "technician": "فني صيانة",
+        "client": "عميل"
+      }
+    } ,
+    "today": {
+      "title": "ملخص عمليات اليوم",
+      "total_activities": "إجمالي حركات اليوم",
+      "items": {
+        "today_new_bookings": "حجوزات جديدة",
+        "today_assignments": "مهام تم إسنادها",
+        "today_invoices": "فواتير تم إصدارها"
+      }
+    } ,
+    "filter": {
+      "label": "تصفية البيانات:",
+      "presets": {
+        "all": "كل الوقت",
+        "today": "اليوم",
+        "week": "هذا الأسبوع",
+        "month": "هذا الشهر",
+        "year": "هذا العام",
+        "custom": "فترة مخصصة..."
+      },
+      "pick_date": "اختر نطاق التاريخ",
+      "apply": "تطبيق الفلتر"
+    }
+
+  } ,
+  "BookingMembers": {
+  "pageTitle": "فريق عمل الحجز",
+  "pageSubtitle": "ابحث برقم الحجز (Booking Ref) لمعرفة العمال والفنيين الذين تم تعيينهم لهذه المهمة.",
+  "searchPlaceholder": "أدخل رقم الحجز (مثال: EMP-2026-1234)...",
+  "searchBtn": "بحث",
+  "loading": "جاري البحث عن بيانات فريق العمل...",
+  "noResults": "لم يتم العثور على فريق عمل مسجل لهذا الحجز.",
+  "error": "تعذر العثور على بيانات. يرجى التأكد من صحة رقم الحجز والمحاولة مرة أخرى.",
+  "emptySearchState": "أدخل رقم الحجز في الأعلى لعرض الفريق.",
+  "workerDetails": "بيانات العامل",
+  "phone": "رقم الهاتف",
+  "joinedAt": "تاريخ التعيين"
+} ,
+"Warehouse": {
+    "Categories": {
+      "title": "إدارة أقسام المخزن",
+      "subtitle": "قم بإضافة وتنظيم الأقسام الرئيسية والفرعية للخامات في النظام.",
+      "categoryName": "اسم القسم",
+      "categoryNamePlaceholder": "مثال: قطع غيار تكييف",
+      "parentCategory": "القسم الرئيسي (إن وُجد)",
+      "selectParent": "اختر القسم الأب",
+      "mainCategory": "قسم رئيسي (بدون أب)",
+      "saveBtn": "إضافة القسم",
+      "tableId": "الكود",
+      "tableName": "اسم القسم",
+      "tableParent": "متفرع من",
+      "tableActions": "إجراءات",
+      "noData": "لا توجد أقسام مسجلة حتى الآن."
+    } ,
+   
+    "Materials": {
+      "title": "الكتالوج والأرصدة",
+      "subtitle": "إدارة الأصناف، تتبع الكميات، وتحديث أسعار الخامات.",
+      "kpi": {
+        "totalItems": "إجمالي الأصناف",
+        "lowStock": "أرصدة حرجة",
+        "active": "نشط",
+        "inactive": "متوقف"
+      },
+      "searchPlaceholder": "ابحث باسم الصنف أو الكود (SKU)...",
+      "addBtn": "إضافة صنف جديد",
+      "actions": {
+  "edit": "تعديل الصنف",
+  "deactivate": "إيقاف الصنف",
+  "activate": "تفعيل الصنف",
+  "adjust": "تعديل الكمية (جرد)" ,
+  "addSerial": "إضافة سيريال "
+},
+"card": {
+  "sku": "الكود:",
+  "price": "سعر البيع:",
+  "cost": "سعر الشراء:",
+  "stock": "الرصيد المتاح:",
+  "piece": "قطعة"
+},
+      "form": {
+        "createTitle": "إضافة صنف جديد",
+        "editTitle": "تعديل بيانات الصنف",
+        "name": "اسم الصنف",
+        "sku": "كود الصنف (SKU)",
+        "category": "القسم التابع له",
+        "unit": "وحدة القياس (مثال: قطعة، متر)",
+        "currentCost": "التكلفة (Current Cost)",
+        "currentPrice": "سعر البيع (Current Price)",
+        "isSerialized": "هذا الصنف له سيريالات (Is Serialized)",
+        "isActive": "نشط ومتاح للبيع (Is Active)",
+        "cancel": "إلغاء",
+        "save": "إضافة الصنف",
+        "saveChanges": "حفظ التعديلات",
+        "createSuccess": "تمت إضافة الصنف بنجاح.",
+        "editSuccess": "تم تحديث بيانات الصنف بنجاح.",
+        "error": "حدث خطأ أثناء حفظ البيانات."
+      }
+    
+  } ,
+  "Serials": {
+      "modalTitle": "إضافة سيريال للجهاز",
+      "modalSubtitle": "إضافة السيريال تزيد الرصيد بمقدار (+1) تلقائياً",
+      "materialLabel": "تحديد الصنف",
+      "selectMaterialPlaceholder": "اختر الصنف...",
+      "loadingMaterials": "جاري التحميل...",
+      "noMaterialsFound": "لا توجد أصناف تتطلب سيريالات",
+      "serialLabel": "رقم السيريال المطبوع على الجهاز",
+      "serialPlaceholder": "مثال: CARRIER-INV-99201",
+      "cancelBtn": "إلغاء",
+      "saveBtn": "حفظ السيريال",
+      "messages": {
+        "success": "تمت إضافة السيريال وزيادة الرصيد بنجاح",
+        "error": "حدث خطأ أثناء حفظ السيريال"
+      },
+      "validation": {
+        "materialRequired": "يجب اختيار الصنف",
+        "serialTooShort": "السيريال قصير جداً",
+        "serialTooLong": "السيريال طويل جداً"
+      }
+    } ,
+   "Explorer": {
+      "title": "تصفح المخزون",
+      "mainStore": "المستودع الرئيسي",
+      "folders": "أقسام",
+      "items": "أصناف",
+      "back": "رجوع",
+      "subCategories": "الأقسام",
+      "availableItems": "الأصناف المتاحة",
+      "price": "سعر البيع",
+      "stock": "الرصيد",
+      "currency": "ج.م",
+      "unitPiece": "قطعة",
+      "showSerials": "عرض السيريالات",
+      "availableSerials": "السيريالات المتاحة",
+      "noSerials": "لا توجد سيريالات متاحة",
+      "emptySection": "لا توجد بيانات",
+      "emptySectionDesc": "هذا القسم فارغ حالياً من الأقسام الفرعية والأصناف.",
+      "loadingStructure": "جاري تحميل البيانات...",
+      "loadError": "حدث خطأ أثناء تحميل البيانات. يرجى المحاولة مرة أخرى."
+    }
+  } ,
+  "jobExecutions": {
+    "header": {
+      "title": "مراجعة المهام المنفذة",
+      "subtitle": "مراجعة واعتماد تفاصيل العمل والخامات المسحوبة ميدانياً."
+    },
+    "filters": {
+      "searchPlaceholder": "بحث برقم الحجز أو العميل...",
+      "statusFilter": "تصفية حسب الحالة",
+      "allStatuses": "جميع الحالات",
+      "needsReview": "قيد المراجعة",
+      "completed": "معتمد ومغلق" ,
+      "rejected": "مردود للفني"
+    },
+    "table": {
+      "view": "عرض",
+      "bookingRef": "رقم الحجز",
+      "clientInfo": "العميل",
+      "address": "العنوان",
+      "closedAt": "تاريخ الإقفال",
+      "status": "الحالة",
+      "loading": "جاري تحميل السجلات...",
+      "error": "حدث خطأ أثناء جلب البيانات.",
+      "noData": "لا توجد مهام مطابقة لخيارات البحث."
+    },
+"modal": {
+    "title": "تفاصيل المهمة",
+    "subtitle": "بيانات تنفيذ المهمة والمصروفات",
+    "clientInfo": "بيانات العميل",
+    "timeline": "الجدول الزمني",
+    "startTime": "وقت البدء",
+    "closeTime": "وقت الإنهاء",
+    "financials": "الماليات",
+    "collected": "المبلغ المُحصل",
+    "currency": "ج.م",
+    "expenses": "مصروفات إضافية",
+    "expenseReason": "سبب المصروفات",
+    "team": "فريق العمل",
+    "technician": "فني",
+    "services": "الخدمات المنفذة",
+    "materials": "الخامات المستهلكة",
+    "serviceName": "اسم الخدمة",
+    "materialName": "اسم الخامة",
+    "quantity": "الكمية",
+    "unitPrice": "سعر الوحدة",
+    "total": "الإجمالي",
+    "totalServices": "إجمالي الخدمات",
+    "totalMaterials": "إجمالي الخامات",
+    "grandTotal": "الإجمالي الكلي للمهمة",
+    "notes": "ملاحظات الفني",
+    "photos": "الصور المرفقة",
+    "stageBefore": "قبل",
+    "stageDuring": "أثناء",
+    "stageAfter": "بعد"
+  },
+    "pagination": {
+      "page": "صفحة",
+      "of": "من",
+      "totalRecords": "إجمالي السجلات:",
+      "previous": "السابق",
+      "next": "التالي"
+    },
+    "buttons": {
+      "viewDetails": "عرض التفاصيل بالكامل"
+    }
+  },
+  "treasury": {
+    "safes": {
+      "title": "إدارة الخزن",
+      "subtitle": "مراقبة الأرصدة وإدارة العهد المالية",
+      "addBtn": "خزنة جديدة",
+      "createTitle": "إنشاء خزنة جديدة"
+    },
+    "form": {
+      "name": "اسم الخزنة",
+      "namePlaceholder": "مثال: الخزنة الرئيسية",
+      "type": "نوع الخزنة",
+      "typePlaceholder": "اختر النوع",
+      "technician": "رقم تعريف الفني (ID)"
+    },
+    "types": {
+      "main": "خزنة رئيسية",
+      "bank": "حساب بنكي",
+      "technician": "عهدة فني" ,
+      "digitalWallet": "محفظة إلكترونية"
+    },
+    "filters": {
+      "searchPlaceholder": "ابحث باسم الخزنة...",
+      "typeFilter": "كل الأنواع",
+      "allTypes": "جميع الخزن"
+    },
+    "table": {
+      "loading": "جاري التحميل...",
+      "error": "حدث خطأ أثناء جلب البيانات",
+      "noData": "لا توجد خزن مطابقة للبحث",
+      "id": "الكود",
+      "name": "اسم الخزنة",
+      "type": "التصنيف",
+      "balance": "الرصيد الفعلي",
+      "status": "الحالة",
+      "createdAt": "تاريخ الإنشاء",
+      "actions": "إجراء"
+    },
+    "buttons": {
+      "deactivate": "إيقاف",
+      "activate": "تفعيل"
+    },
+    "status": {
+      "active": "نشط",
+      "inactive": "موقوف"
+    },
+    "common": {
+      "cancel": "إلغاء",
+      "save": "حفظ الخزنة"
+    } 
+    ,
+    "accounts": {
+      "title": "دليل الحسابات",
+      "subtitle": "إدارة بنود الإيرادات والمصروفات",
+      "addBtn": "حساب جديد",
+      "createTitle": "إنشاء حساب جديد",
+      "code": "كود الحساب",
+      "codePlaceholder": "مثال: 4001",
+      "name": "اسم البند",
+      "namePlaceholder": "مثال: إيرادات صيانة",
+      "type": "النوع",
+      "typePlaceholder": "اختر النوع",
+      "types": {
+        "revenue": "إيراد",
+        "expense": "مصروف"
+      }
+    }
+  } ,
+  "inventoryTransactions": {
+    "title": "حركات المخزون",
+    "subtitle": "تتبع ومراقبة جميع الحركات الصادرة والواردة من المخزن الرئيسي.",
+    "filters": {
+      "searchPlaceholder": "ابحث باسم الخامة، الكود، المرجع...",
+      "typeLabel": "نوع الحركة",
+      "sourceLabel": "مصدر الحركة",
+      "startDate": "من تاريخ",
+      "endDate": "إلى تاريخ",
+      "allTypes": "جميع الحركات",
+      "in": "وارد (IN)",
+      "out": "صادر (OUT)",
+      "allSources": "جميع المصادر",
+      "source_JOB_EXECUTION": "استهلاك مهمة صيانة",
+      "source_PURCHASE": "مشتريات جديدة",
+      "source_RETURN": "مرتجع من فني/عميل",
+      "source_ADJUSTMENT": "تسوية جردية"
+    },
+    "table": {
+      "id": "رقم",
+      "material": "الخامة",
+      "type": "النوع",
+      "source": "المصدر",
+      "quantity": "الكمية",
+      "balanceAfter": "الرصيد",
+      "cost": "التكلفة الإجمالية",
+      "user": "بواسطة",
+      "date": "التاريخ",
+      "notes": "ملاحظات",
+      "noData": "لا توجد حركات مخزنية تطابق بحثك."
+    },
+    "pagination": {
+      "page": "صفحة",
+      "of": "من"
+    }
+  } ,
+  "suppliersManager": {
+    "header": {
+      "title": "إدارة الموردين",
+      "subtitle": "إضافة وتعديل بيانات الموردين ومتابعة الأرصدة المالية"
+    },
+    "buttons": {
+      "newSupplier": "إضافة مورد جديد",
+      "edit": "تعديل",
+      "save": "حفظ البيانات",
+      "cancel": "إلغاء",
+      "saving": "جاري الحفظ..."
+    },
+    "filters": {
+      "searchPlaceholder": "ابحث باسم المورد، الشركة، الهاتف...",
+      "statusFilter": "حالة المورد",
+      "allStatuses": "جميع الحالات",
+      "active": "نشط",
+      "inactive": "غير نشط"
+    },
+    "table": {
+      "name": "اسم المورد",
+      "company": "الشركة",
+      "contact": "بيانات الاتصال",
+      "balance": "الرصيد المالي (الديون)",
+      "status": "الحالة",
+      "actions": "إجراءات",
+      "loading": "جاري تحميل الموردين...",
+      "error": "حدث خطأ أثناء تحميل البيانات.",
+      "noData": "لا يوجد موردين مضافين حتى الآن.",
+      "quickActions": "إجراءات سريعة"
+    },
+    "modal": {
+      "addTitle": "إضافة مورد جديد",
+      "editTitle": "تعديل بيانات المورد",
+      "name": "اسم المورد",
+      "company_name": "اسم الشركة",
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "tax_number": "الرقم الضريبي",
+      "address": "العنوان",
+      "status": "حالة المورد"
+    },
+    "toasts": {
+      "addSuccess": "تم إضافة المورد بنجاح",
+      "editSuccess": "تم تحديث بيانات المورد بنجاح",
+      "error": "حدث خطأ، يرجى المحاولة مرة أخرى"
+    }
+  } ,
+  "invoicesManager": {
+  "title": "فواتير المشتريات",
+  "subtitle": "إدارة وعرض جميع فواتير الموردين",
+  "searchPlaceholder": "ابحث برقم الفاتورة أو المورد...",
+  "filters": {
+    "all": "الكل",
+    "paid": "مدفوعة بالكامل",
+    "partially_paid": "مدفوعة جزئياً",
+    "unpaid": "غير مدفوعة"
+  },
+  "table": {
+    "ref": "رقم الفاتورة",
+    "supplier": "المورد",
+    "date": "التاريخ",
+    "netAmount": "الصافي",
+    "paid": "المدفوع",
+    "status": "الحالة",
+    "actions": "إجراءات"
+  },
+  "modal": {
+    "title": "تفاصيل الفاتورة",
+    "supplierInfo": "بيانات المورد",
+    "supplierName": "الاسم",
+    "company": "الشركة",
+    "supplierInvoiceNum": "رقم فاتورة المورد",
+    "financials": "الماليات",
+    "total": "الإجمالي",
+    "discount": "الخصم",
+    "safe": "خزنة الدفع",
+    "itemsTitle": "الأصناف المشتراة",
+    "material": "الصنف",
+    "qty": "الكمية",
+    "price": "سعر الوحدة",
+    "totalPrice": "الإجمالي",
+    "notes": "الملاحظات",
+    "createdBy": "بواسطة"
+  }
+},
+"treasuryTransactions": {
+  "title": "سجل حركات الخزينة",
+  "subtitle": "مراقبة كافة التدفقات النقدية الواردة والصادرة (IN/OUT)",
+  "searchPlaceholder": "ابحث بالبيان، اسم الخزنة، أو الحساب...",
+  "filters": {
+    "allTypes": "كل الحركات",
+    "in": "وارد (IN)",
+    "out": "منصرف (OUT)",
+    "startDate": "من تاريخ",
+    "endDate": "إلى تاريخ"
+  },
+  "table": {
+    "id": "رقم",
+    "safe": "الخزنة",
+    "account": "الحساب المالي",
+    "type": "النوع",
+    "amount": "المبلغ",
+    "reference": "المستند / المرجع",
+    "notes": "البيان",
+    "createdBy": "المستخدم",
+    "date": "التاريخ"
+  }
+} ,
+"collectionsLedger": {
+  "title": "سجل تحصيلات الفنيين",
+  "subtitle": "مراقبة واستلام المبالغ المحصلة من مهام العملاء وتسوية العهد",
+  "searchPlaceholder": "بحث باسم الفني، أو رقم المهمة...",
+  "filters": {
+    "status": "حالة التوريد:",
+    "all": "الكل",
+    "pending": "لم يورد (مفتوح)",
+    "remitted": "تم التوريد (مغلق)"
+  },
+  "table": {
+    "jobRef": "المهمة",
+    "technician": "الفني",
+    "amount": "المبلغ المُحصل",
+    "date": "تاريخ التحصيل"
+  },
+  "badges": {
+    "remitted": "تم التوريد للخزنة",
+    "pending": "لم يورد (في عهدة الفني)"
+  },
+  "actions": {
+    "remit": "استلام العهدة والتوريد",
+    "noData": "لا توجد سجلات مطابقة لبحثك",
+    "loading": "جاري جلب سجلات التحصيل..."
+  },
+  "modal": {
+    "title": "توريد عهدة فني",
+    "requiredAmount": "العهدة المطلوبة:",
+    "actualAmount": "المبلغ الفعلي المستلَم",
+    "targetSafe": "إيداع في خزنة (الخزنة الرئيسية)",
+    "notes": "ملاحظات (اختياري)",
+    "notesPlaceholder": "اكتب تفاصيل التوريد...",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد الإيداع",
+    "warningExcess": "تنبيه: المبلغ يتجاوز قيمة التحصيل الأصلية!"
+  }
+} ,
+"expensesLedger": {
+  "title": "سجل مصروفات الفنيين",
+  "subtitle": "مراقبة واعتماد المصروفات وتسويتها من عهدة الفني مباشرة",
+  "searchPlaceholder": "بحث باسم الفني، السبب، أو رقم المهمة...",
+  "filters": {
+    "status": "حالة الاعتماد:",
+    "all": "الكل",
+    "pending": "قيد الانتظار",
+    "approved": "معتمد ومسوى",
+    "rejected": "مرفوض"
+  },
+  "stats": {
+    "records": "إجمالي السجلات:",
+    "pendingAmount": "إجمالي قيد الانتظار:"
+  },
+  "table": {
+    "amount": "المبلغ المطلوب",
+    "date": "تاريخ التسجيل"
+  },
+  "badges": {
+    "approved": "معتمد (تمت التسوية)",
+    "rejected": "مرفوض",
+    "pending": "قيد الانتظار"
+  },
+  "actions": {
+    "approve": "مراجعة واعتماد",
+    "reject": "رفض",
+    "noData": "لا توجد سجلات مطابقة لبحثك",
+    "loading": "جاري جلب سجلات المصروفات..."
+  },
+  "modal": {
+    "title": "اعتماد وتسوية المصروف",
+    "requiredAmount": "المبلغ المطلوب:",
+    "actualAmount": "المبلغ الفعلي المعتمد للاستنزال",
+    "infoText": "باعتمادك هذا المصروف، سيتم خصم المبلغ من عهدة الفني لتسوية حسابه، ولن يتم سحب مبالغ من الخزينة الرئيسية.",
+    "notes": "ملاحظات الاعتماد (اختياري)",
+    "notesPlaceholder": "اكتب تفاصيل الاعتماد...",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد واعتماد",
+    "warningExcess": "تنبيه: المبلغ المعتمد يتجاوز قيمة المصروف المطلوبة!"
+  }
+},
+"invoicePayment": {
+  "modalTitle": "تسجيل دفعة جديدة",
+  "invoiceRef": "رقم الفاتورة:",
+  "totalAmount": "إجمالي الفاتورة:",
+  "paidAmount": "المدفوع مسبقاً:",
+  "remainingAmount": "المتبقي للاستحقاق:",
+  "paymentAmount": "مبلغ الدفعة الحالي",
+  "paymentMethod": "طريقة الدفع",
+  "cash": "نقداً",
+  "transfer": "تحويل بنكي / محفظة",
+  "pos": "ماكينة POS",
+  "safe": "إيداع في خزنة",
+  "account": "توجيه الإيراد إلى",
+  "notes": "ملاحظات الدفع (اختياري)",
+  "cancel": "إلغاء",
+  "confirm": "تسجيل الدفعة وتحديث الرصيد",
+  "warningExceeds": "تنبيه: المبلغ المُدخل أكبر من المتبقي على الفاتورة!"
+}
+}

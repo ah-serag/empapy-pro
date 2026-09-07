@@ -1,0 +1,1398 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us",
+    "bookNow": "Book Now" ,
+    "supportText": "24/7 Customer Support & Maintenance"
+  } ,
+  "Hero": {
+    "badge": "The Frist Choice for Comfort & Reliability",
+    "titleLine1": "Ultimate Comfort",
+    "titleLine2": "In Every Corner.",
+    "description": "World-class AC installation and maintenance services. Experience the perfect climate and pure air with experts you can blindly trust.",
+    "bookNow": "Book a Visit Now",
+    "exploreServices": "Contact Us",
+    "feature1": "Certified Experts",
+    "feature2": "Rapid Response"
+  } ,
+  
+  "Services": {
+    "subtitle": "SERVICES",
+    "titleLine1": "Complete HVAC Solutions",
+    "titleLine2": "For Every Space",
+    "description": "From fast repairs to complete installations, we provide reliable HVAC services tailored to your needs.",
+    "badge": {
+      "title": "Certified Technicians",
+      "desc": "Trained. Qualified. Trusted."
+    },
+    "service1": {
+      "title": "AC Repair",
+      "desc": "Fast diagnosis and professional repair for all major brands."
+    },
+    "service2": {
+      "title": "Installation & Replacement",
+      "desc": "Expert installation of energy-efficient systems with quality guarantee."
+    },
+    "service3": {
+      "title": "Preventive Maintenance",
+      "desc": "Regular maintenance to improve performance and extend system life."
+    },
+    "service4": {
+      "title": "Commercial HVAC Services",
+      "desc": "Reliable solutions for offices, shops and large facilities."
+    },
+    "trust1": {
+      "title": "Certified & Insured",
+      "desc": "Your safety is our priority."
+    },
+    "trust2": {
+      "title": "24/7 Emergency Service",
+      "desc": "We're here when you need us."
+    },
+    "trust3": {
+      "title": "Satisfaction Guarantee",
+      "desc": "Quality service you can trust."
+    },
+    "trust4": {
+      "title": "Energy Efficient Solutions",
+      "desc": "Better comfort, lower costs."
+    } 
+
+ 
+  } ,
+
+ "Booking": {
+    "title": "Book Your HVAC Service",
+    "subtitle": "Fill in the details below and our team will get back to you to confirm your appointment.",
+    "features": {
+      "scheduling": "Easy Scheduling",
+      "scheduling_desc": "Choose your preferred date easily.",
+      "professionals": "Trusted Professionals",
+      "professionals_desc": "Our certified technicians ensure quality service.",
+      "response": "Quick Response",
+      "response_desc": "We'll confirm your booking and be on time."
+    },
+   "form": {
+  "fullName": "Full Name",
+  "namePlaceholder": "Enter your full name",
+  "phone": "Phone Number",
+  "phonePlaceholder": "Enter your phone number",
+  "email": "Email Address",
+  "emailPlaceholder": "Enter your email address",
+  "optional": "Optional",
+  "address": "Detailed Address",
+  "addressPlaceholder": "Enter your full detailed address",
+  "locationUrl": "Google Maps Link",
+  "locationUrlPlaceholder": "Paste the Google Maps link here...",
+  "date": "Preferred Date",
+  "datePlaceholder": "Select your preferred date",
+  "notes": "Notes",
+  "notesPlaceholder": "Add any special instructions or requests...",
+  "submitBtn": "Confirm Booking",
+  "processing": "Processing...",
+  "secure": "Your data is completely secure and encrypted"
+}
+
+  }
+ ,
+ "Locations": {
+    "governorate": "Governorate",
+    "zone": "Zone / Area",
+    "selectGovernorate": "Select Governorate",
+    "selectGovernorateFirst": "Select Governorate first",
+    "noZonesAvailable": "No zones available",
+    "selectZone": "Select Zone",
+    "loading": "Loading locations..."
+  } ,
+  "ServiceJourney": {
+    "title": "How We Work",
+    "steps": {
+      "step1": {
+        "title": "SCHEDULE APPOINTMENT",
+        "desc": "Seamless online booking or quick call to set your perfect time."
+      },
+      "step2": {
+        "title": "WE ARRIVE",
+        "desc": "Uniformed, background-checked professionals arrive on time, every time."
+      },
+      "step3": {
+        "title": "EXPERT SERVICE",
+        "desc": "Comprehensive diagnosis, precision repairs, and transparent communication."
+      },
+      "step4": {
+        "title": "WARRANTY PROTECTION",
+        "desc": "Enjoy peace of mind with our industry-leading parts and labor guarantees."
+      }
+    }
+  } ,
+  "BookingBanner": {
+    "title": "Book Now and Enjoy Perfect Air",
+    "description": "Contact us today to schedule a maintenance or installation appointment. Our expert team is ready to serve you around the clock to ensure your peace of mind.",
+    "button": "Book Now",
+    "imageAlt": "Air Conditioning Unit"
+  } ,
+  "ViewBookingModal": {
+    "bookingDetails": "Booking Details",
+    "ref": "ref",
+    "id": "id",
+    "created": "Created",
+    "null": "Null",
+    "operationalStatus": "Operational Status",
+    "financialStatus": "Financial Status",
+    "clientIdentification": "Client Identification",
+    "fullName": "Full Name",
+    "phoneNumber": "Phone Number",
+    "whatsApp": "WhatsApp",
+    "emailAddress": "Email Address",
+    "logisticsLocation": "Logistics & Location",
+    "governorateZone": "Governorate / Zone",
+    "streetAddress": "Street Address",
+    "googleMapsLink": "Google Maps Link",
+    "openInMaps": "Open in Maps",
+    "editLink": "Edit Link",
+    "addLink": "Add Link",
+    "temporalData": "Temporal Data",
+    "preferredDate": "Preferred Date",
+    "timeFrom": "Time From",
+    "timeTo": "Time To",
+     "source" : "source Booking" ,
+
+    "systemAudit": "System & Audit",
+    "bookingId": "Booking ID",
+    "lastUpdatedAt": "Last Updated At",
+    "diagnosticsRemarks": "Diagnostics & Remarks",
+    "clientNotes": "Client Notes",
+    "cancellationReason": "Cancellation Reason",
+    "assignment": "Assignment",
+    "teamId": "Team ID",
+    "assignmentNotes": "Assignment Notes",
+    "enterTeamId": "Enter Team ID",
+    "enterNotes": "Enter notes...",
+    "createAssignment": "Create Assignment",
+    "creating": "Creating...",
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "scheduled": "Scheduled",
+      "assigned" : "assigned" , 
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "rejected": "Rejected" 
+
+    },
+    "paymentStatus": {
+      "unpaid": "Unpaid",
+      "partial": "Partial",
+      "paid": "Paid",
+      "refunded": "Refunded"
+    }
+  } ,
+  "SelectTeam": {
+    "label": "Assign Team",
+    "placeholder": "Select a team...",
+    "loading": "Loading teams...",
+    "error": "Failed to load teams"
+  },
+  "NavbarManager": {
+    "managerPanel": "Manager",
+    "nav": {
+       "dashboard" :{
+         "title" :"Dashboard"
+      },
+      "finance": {
+    "title": "Finance & Payroll",
+    "items": {
+      "technicianProfiles": {
+        "title": "Technician Profiles"
+      },
+      "technicianEarnings": {
+        "title": "Commissions & Earnings"
+      },
+      "technicianSettlement": {
+        "title": "Payroll Settlements"
+      },
+      "settlementsHistory": {
+        "title": "Settlements History"
+      }
+    }
+  } ,
+      "coreData": {
+        "title": "Core Data",
+        "items": {
+          "locations": {
+            "title": "Locations"
+          },
+          "serviceCategories": {
+            "title": "Service Categories"
+          }
+        }
+      },
+      "treasury": {
+    "title": "Treasury & Accounts",
+    "items": {
+      "safes": {
+        "title": "Safes & Banks"
+      },
+      "accounts": {
+        "title": "Chart of Accounts"
+      },
+      "transactions": {
+        "title": "Treasury Transactions"
+      },
+      "expenses": {
+        "title": "Expenses"
+      },
+      "collections": {
+        "title": "Custodies & Collections"
+      },
+      "vouchers_list": {
+  "title": "Vouchers Log"
+},
+"create_voucher": {
+  "title": "Issue Voucher"
+} ,
+"advances": {
+  "title": "advances"
+}
+    }
+  } ,
+      "teamUsers": {
+        "title": "Team & Users",
+        "items": {
+          "users": {
+            "title": "Users"
+          },
+          "teams": {
+            "title": "Teams"
+          },
+          "createAccount": {
+            "title": "Create Account"
+          }
+        }
+      },
+      "bookings": {
+        "title": "Bookings"
+      },
+      "notifications": {
+        "title": "Notifications"
+      },
+    "assignments": {
+    "title": "Assignments"
+     },
+     "job":{
+      "title" : "veiw Work"
+    },
+     "create-file": {
+      "title" : "create file"
+    },
+       "invoices" :{
+        "title": "invoices"
+      } ,
+      "warehouse": {
+      "title": "Warehouse",
+      "items": {
+        "categories": {
+          "title": "Categories"
+        },
+        "materials": {
+          "title": "Catalog & Inventory"
+        },
+        "search": {
+          "title": "Stock veiw"
+        } ,
+        "transactions":{
+          "title" : "Inventory Transactions"
+        }
+      }
+    } ,
+    "purchases": {
+      "title": "Purchases & Suppliers",
+      "items": {
+        "suppliers": {
+          "title": "Suppliers Management"
+        },
+        "invoices": {
+          "title": "Purchase Invoices"
+        },
+        "new_invoice": {
+          "title": "New Purchase Invoice"
+        },
+        "supplier_transactions": {
+          "title": "Supplier Statements"
+        }
+      }
+    }
+    }
+  },
+  "UsersManagementPage": {
+    "header": {
+      "title": "Users Directory",
+      "description": "Manage system access, monitor user roles, and filter records efficiently."
+    },
+    "stats": {
+      "totalUsers": "Total Users in Database"
+    },
+    "controls": {
+      "searchPlaceholder": "Search by name, email, or phone...",
+      "roles": {
+        "all": "All Roles",
+        "superadmin": "Super Admin",
+        "admin": "Admin",
+        "supervisor": "Supervisor",
+        "technician": "Technician",
+        "client": "Client"
+      },
+      "status": {
+        "all": "All Statuses",
+        "active": "Active Only",
+        "inactive": "Inactive Only"
+      }
+    },
+    "loading": "Loading system users...",
+    "noResults": "No users found matching the selected criteria.",
+    "table": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "status": "Status",
+      "registered": "Registered",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "activate": "Activate User",
+      "deactivate": "Deactivate User",
+      "delete": "Delete User Account",
+      "deleteBtn": "Delete"
+    },
+    "mobile": {
+      "joined": "Joined"
+    },
+    "pagination": {
+      "showingRows": "Showing rows",
+      "of": "of",
+      "totalResults": "total results",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "ofPage": "of"
+    },
+    "modal": {
+      "title": "Are you absolutely sure?",
+      "descriptionStart": "This will permanently delete the account of",
+      "descriptionEnd": "and delete all associated metadata. This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirmDelete": "Delete Account"
+    },
+    "toast": {
+      "statusUpdated": "User status updated successfully.",
+      "statusFailed": "Failed to change user status.",
+      "userDeleted": "User deleted successfully.",
+      "deleteFailed": "Failed to delete user account.",
+      "loadFailed": "Failed to load users data"
+    }
+  },
+  "TeamsOperations": {
+    "header": {
+      "title": "Teams Operations",
+      "description": "Organize technical teams, assign supervisors, and manage geographical zones.",
+      "createBtn": "Create New Team"
+    },
+    "stats": {
+      "totalTeams": "Total Operational Teams"
+    },
+    "filters": {
+      "search": "Search teams...",
+      "allServices": "All Service Types",
+      "installation": "Installation",
+      "maintenance": "Maintenance",
+      "mixed": "Mixed",
+      "allStatuses": "All Statuses",
+      "activeOnly": "Active Only",
+      "inactiveOnly": "Inactive Only"
+    },
+    "loading": "Loading operational teams...",
+    "noResults": "No teams matched your search criteria.",
+    "table": {
+      "view": "View",
+      "profile": "Team Profile",
+       "member": "Team Member",
+
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "activeTeam": "Active Team",
+      "inactiveTeam": "Inactive Team"
+    },
+    "actions": {
+      "manageMembers": "Members"
+    },
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "results": "results",
+      "rows": "Rows",
+      "page": "Page"
+    },
+    "createEdit": {
+      "createTitle": "Create New Team",
+      "editTitle": "Edit Operations Team",
+      "teamName": "Team Name",
+      "teamNamePlaceholder": "e.g. Cairo Delta Team",
+      "serviceType": "Service Type",
+      "geographicalCoverage": "Geographical Coverage",
+      "supervisor": "Supervisor",
+      "selectSupervisor": "Select a Supervisor",
+      "maxDailyTasks": "Max Daily Tasks",
+      "saveChanges": "Save Changes",
+      "deployTeam": "Deploy Team"
+    },
+    "view": {
+      "title": "Team Profile Details",
+      "tasksDay": "Tasks/Day",
+      "supervisor": "Supervisor",
+      "noSupervisor": "No Supervisor Assigned",
+      "operatingZone": "Operating Zone",
+      "noZone": "No Zone Assigned",
+      "assignedAgents": "Assigned Agents",
+      "noAgents": "No active agents assigned to this team."
+    },
+    "members": {
+      "title": "Manage Team Roster",
+      "assignTechnician": "Assign Technician",
+      "chooseRoster": "Choose from roster...",
+      "assignBtn": "Assign",
+      "activeAgents": "Active Field Agents",
+      "removeBtn": "Remove",
+      "noActiveMembers": "No active members assigned yet."
+    },
+    "roles": {
+      "leader": "Leader",
+      "member": "Member",
+      "trainee": "Trainee"
+    },
+    "delete": {
+      "title": "Decommission Team?",
+      "descriptionStart": "This will permanently delete the",
+      "descriptionEnd": "team and relieve all agents from this assignment.",
+      "confirm": "Delete Team"
+    },
+    "common": {
+      "cancel": "Cancel"
+    },
+    "toast": {
+      "teamCreated": "Team created successfully!",
+      "teamUpdated": "Team updated successfully!",
+      "errorSavingTeam": "Error saving team",
+      "teamDeleted": "Team deleted successfully!",
+      "errorDeletingTeam": "Cannot delete team.",
+      "memberAdded": "Member added to team successfully!",
+      "errorAddingMember": "Failed to add member to team",
+      "memberRemoved": "Member removed from team successfully!",
+      "errorRemovingMember": "Failed to remove member"
+    }
+  
+   },
+   "CreateAccountPage": {
+    "header": {
+      "title": "Create Account",
+      "description": "Create new accounts for admins, supervisors, or technicians.",
+      "backBtn": "Back to List"
+    },
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePh": "e.g. Ahmed Ali",
+      "phone": "Phone Number",
+      "phonePh": "01xxxxxxxxx",
+      "email": "Email Address",
+      "emailPh": "name@company.com",
+      "password": "Password",
+      "passwordPh": "••••••••",
+      "systemRole": "System Role",
+      "roleHint": "Select the appropriate access level. This dictates what the user can see and do within the system."
+    },
+    "roles": {
+      "admin": "Admin",
+      "supervisor": "Supervisor",
+      "technician": "Technician",
+      "client": "Client"
+    },
+    "buttons": {
+      "submit": "Create Team Member",
+      "creating": "Creating..."
+    }
+  },
+  "bookingManager": {
+    "header": {
+      "title": "Bookings Management",
+      "subtitle": "Comprehensive overview and systematic control of all incoming requests."
+    },
+    "buttons": {
+      "newBooking": "New Booking",
+      "confirm": "Confirm",
+      "createAssignment": "Create Assignment",
+      "cancelBooking": "Cancel Booking",
+      "permanentlyDelete": "Permanently Delete",
+      "back": "Back",
+      "confirmCancellation": "Confirm Cancellation",
+      "cancel": "Cancel",
+      "saveLocation": "Save Location"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by reference, name, phone...",
+      "statusFilter": "Status Filter",
+      "allStatuses": "All Statuses",
+      "paymentFilter": "Payment Filter",
+      "allPayments": "All Payments"
+    },
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "scheduled": "Scheduled",
+       "assigned" : "assigned" , 
+
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "rejected": "Rejected"
+    },
+    "payment": {
+      "unpaid": "Unpaid",
+      "partial": "Partial",
+      "paid": "Paid",
+      "refunded": "Refunded"
+    },
+     "dialogs": {
+      "cancelTitle": "Cancel Booking",
+      "cancelDesc": "Please provide a reason for cancelling this booking.",
+      "cancelReasonPlaceholder": "Cancellation Reason...",
+      "locationTitle": "Update Location Link",
+      "locationDesc": "Paste the Google Maps URL provided by the client.",
+      "locationPlaceholder": "e.g., https://maps.app.goo.gl/...",
+      "deleteTitle": "Delete Booking",
+      "deleteDesc": "Are you sure you want to permanently delete this booking? This action cannot be undone."
+    },
+    "table": {
+      "view": "View",
+      "reference": "Reference",
+      "customer": "Customer",
+      "location": "Location",
+      "date": "Date",
+      "status": "Status",
+      "payment": "Payment",
+      "actions": "Actions",
+      "loading": "Loading records...",
+      "error": "Failed to retrieve bookings.",
+      "noData": "No records found matching your criteria.",
+      "quickActions": "Quick Actions",
+      "noLocation": "No Location",
+      "noZone": "No Zone"
+    },
+    "toasts": {
+      "confirmSuccess": "Booking confirmed successfully",
+      "confirmError": "Error confirming booking",
+      "cancelReasonRequired": "Cancellation reason is required",
+      "cancelSuccess": "Booking cancelled successfully",
+      "cancelError": "Error cancelling booking",
+      "deleteSuccess": "Booking deleted successfully",
+      "deleteError": "Error deleting booking",
+      "statusUpdated": "Status updated successfully",
+      "paymentUpdated": "Payment updated successfully",
+      "updateError": "Error updating status",
+      "locationSuccess": "Location URL updated successfully",
+      "locationError": "Failed to update location URL"
+    },
+    "alerts": {
+      "confirmDelete": "Are you sure you want to permanently delete this booking?"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of",
+      "totalRecords": "Total records:"
+    }
+  
+  },
+  "notifications": {
+    "header": {
+      "title": "Notifications",
+      "subtitle": "Stay updated with your latest system activity."
+    },
+    "buttons": {
+      "markAllAsRead": "Mark all as read",
+      "deleteAll": "Delete All",
+      "cancel": "Cancel",
+      "confirmDelete": "Permanently Delete"
+    },
+    "tabs": {
+      "all": "All",
+      "unread": "Unread",
+      "read": "Read"
+    },
+    "states": {
+      "loading": "Loading your notifications...",
+      "error": "Failed to load notifications.",
+      "empty": "No notifications found!"
+    },
+    "pagination": {
+      "showing": "Showing page",
+      "of": "of",
+      "prev": "Prev",
+      "next": "Next"
+    },
+    "dialogs": {
+      "deleteAllTitle": "Delete All Notifications",
+      "deleteAllDesc": "Are you sure you want to permanently delete all notifications? This action cannot be undone."
+    },
+    "toasts": {
+      "markReadError": "Failed to mark notification as read.",
+      "markAllReadSuccess": "All notifications marked as read.",
+      "actionError": "Failed to update notifications.",
+      "deleteSuccess": "Notification deleted successfully.",
+      "deleteAllSuccess": "All notifications deleted successfully.",
+      "deleteError": "Failed to delete notification(s)."
+    }
+  },
+ "assignments": {
+  "header": {
+    "title": "Tasks & Assignments",
+    "subtitle": "Manage and track team assignments and booking locations."
+  },
+  "filters": {
+    "searchPlaceholder": "Search by Ref, Client Name, Team Name",
+    "statusFilter": "Filter by Status",
+    "allStatuses": "All Statuses"
+  },
+  "status": {
+    "pending": "Pending",
+    "in_progress": "In Progress",
+    "completion_pending": "Pending Closure", 
+    
+    "needs_review" : "needs review",
+
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+  "table": {
+    "ref" : "refrence" ,
+    "clientInfo": "Booking & Client",
+    "location": "Location",
+    "team": "Assigned Team",
+    "date": "Scheduled Date",
+    "status": "Status",
+    "actions": "Actions",
+    "loading": "Loading assignments data...",
+    "error": "Failed to load data. Please try again.",
+    "noData": "No assignments found matching your criteria.",
+    "invoiceIssued": "Invoice Issued",
+    "issueInvoice": "Issue Invoice"
+  },
+  "actions": {
+    "markPending": "Mark as Pending",
+    "markInProgress": "Mark as In Progress",
+    "markCompleted": "Mark as Completed",
+    "cancelAssignment": "Cancel Assignment",
+    "delete": "Delete Assignment"
+  },
+  "pagination": {
+    "showing": "Showing",
+    "of": "of",
+    "results": "results",
+    "rows": "Rows per page",
+    "page": "Page"
+  },
+  "dialogs": {
+    "deleteTitle": "Delete Assignment",
+    "deleteDesc": "Are you sure you want to delete this assignment? This action cannot be undone.",
+    "cancelTitle": "Cancel Assignment",
+    "cancelDesc": "Please clearly state the reason for cancellation. This field is required for administrative tracking.",
+    "cancelReasonPlaceholder": "Example: Client cancelled the appointment, or price not agreed upon..." ,
+    "cancelBookingLabel": "Cancel the main booking associated with this assignment entirely",
+"cancelBookingHint": "If left unchecked, the booking will return to the queue to be assigned to another team."
+  },
+  "buttons": {
+    "cancel": "Cancel",
+    "confirmDelete": "Yes, Delete",
+    "confirmCancel": "Confirm Cancellation",
+    "canceling": "Canceling..."
+  },
+  "toasts": {
+    "deleteSuccess": "Assignment deleted successfully",
+    "deleteError": "Failed to delete the assignment",
+    "statusSuccess": "Status updated successfully",
+    "statusError": "Failed to update status",
+    "cancelSuccess": "Assignment cancelled successfully",
+    "cancelReasonRequired": "Cancellation reason is required to proceed"
+  },
+  "invoices": {
+    "modal": {
+      "title": "Issue New Invoice",
+      "subtotal_label": "Subtotal Amount",
+      "subtotal_placeholder": "e.g., 1500",
+      "discount_label": "Discount (if any)",
+      "discount_placeholder": "e.g., 50",
+      "notes_label": "Notes (Optional)",
+      "notes_placeholder": "Any additional notes for the invoice...",
+      "cancel": "Cancel",
+      "submit": "Confirm & Issue",
+      "loading": "Issuing..."
+    },
+    "success": {
+      "created": "Invoice issued successfully."
+    }
+  }
+},
+  "Unauthorized": {
+    "title": "Access Denied",
+    "description": "Sorry, your current account does not have the required permissions to access the management panel.",
+    "suggestion": "If you believe this is a mistake, please contact support, or you can return to the homepage to continue.",
+    "homeBtn": "Return to Home",
+    "supportBtn": "Contact Support",
+    "switchLang": "العربية"
+  },
+  "invoicesPage": {
+    "header": {
+      "title": "Invoices",
+      "subtitle": "Manage and track all invoices and payment statuses"
+    },
+    "success": {
+      "updated": "Updated successfully"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by invoice ref, client, phone...",
+      "statusFilter": "Invoice Status",
+      "allStatuses": "All Statuses"
+    },
+    "status": {
+      "draft": "Draft",
+      "paid": "Fully Paid",
+      "cancelled": "Cancelled",
+      "unpaid": "Unpaid",
+      "partially_paid": "Partially Paid"
+    },
+    "table": {
+      "loading": "Loading invoices...",
+      "error": "An error occurred while fetching data.",
+      "noData": "No invoices match your search.",
+      "invoiceInfo": "Invoice Info",
+      "clientInfo": "Client Info",
+      "teamInfo": "Team",
+      "financials": "Financials",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "actions": {
+      "markPaid": "Mark as Paid",
+      "markDraft": "Revert to Draft",
+      "markCancelled": "Cancel Invoice",
+      "delete": "Delete Invoice"
+    },
+    "pagination": {
+      "showing": "Showing",
+      "of": "of",
+      "results": "results",
+      "rows": "Rows",
+      "page": "Page"
+    }
+  } ,
+  "dashboard": {
+    "title": "Dashboard",
+    "bookings": {
+      "title": "Booking Statistics",
+      "total": "Total Bookings",
+      "statuses": {
+        "assigned": "Assigned",
+        "rejected": "Rejected",
+        "completed": "Completed",
+        "confirmed": "Confirmed",
+        "cancelled": "Cancelled",
+        "in_progress": "In Progress",
+        "scheduled": "Scheduled",
+        "pending": "Pending"
+      }
+    } ,
+    "financial": {
+      "title": "Financial Overview",
+      "total_revenue": "Total Revenue",
+      "collected_revenue": "Collected Revenue",
+      "pending_revenue": "Pending Revenue",
+      "currency": "EGP"
+    } ,
+   "invoices": {
+      "title": "Invoices Status",
+      "total": "Total Invoices",
+      "statuses": {
+        "paid": "Paid",
+        "draft": "Draft",
+        "partially_paid" :"Partially Paid",
+        "cancelled": "Cancelled"
+      }
+      }  ,
+     "expenses": {
+      "title": "Expenses Statistics",
+      "statuses": {
+        "PENDING_APPROVAL": "Pending Approval",
+        "APPROVED": "Approved",
+        "REJECTED": "Rejected"
+      }
+    },
+    "collections": {
+      "title": "Collections Statistics",
+      "statuses": {
+        "PENDING": "Pending (with Tech)",
+        "REMITTED": "Remitted to Safe"
+      }
+    },       
+    "assignments": {
+      "title": "Team Assignments",
+      "total": "Total Assignments",
+      "statuses": {
+        "in_progress": "In Progress",
+        "pending": "Pending",
+        "completed": "Completed"
+      }
+    } ,
+    "teams": {
+      "title": "Teams Statistics",
+      "total_teams": "Total Teams",
+      "available_teams": "Available Teams",
+      "total_members": "Total Technicians & Members"
+    } ,
+    "users": {
+      "title": "Users Statistics",
+      "total": "Total Accounts",
+      "roles": {
+        "superadmin": "Super Admin",
+        "admin": "Admin",
+        "supervisor": "Supervisor",
+        "technician": "Technician",
+        "client": "Client"
+      }
+    } ,
+    "today": {
+      "title": "Today's Summary",
+      "total_activities": "Total Today's Activities",
+      "items": {
+        "today_new_bookings": "New Bookings",
+        "today_assignments": "Assigned Tasks",
+        "today_invoices": "Issued Invoices"
+      }
+    } ,
+      "filter": {
+      "label": "Filter by:",
+      "presets": {
+        "all": "All Time",
+        "today": "Today",
+        "week": "This Week",
+        "month": "This Month",
+        "year": "This Year",
+        "custom": "Custom Range..."
+      },
+      "pick_date": "Pick a date range",
+      "apply": "Apply Filter"
+    }
+  } ,
+  "BookingMembers": {
+  "pageTitle": "Booking Team",
+  "pageSubtitle": "Search by Booking Reference to view the technicians assigned to this task.",
+  "searchPlaceholder": "Enter Booking Ref (e.g., EMP-2026-1234)...",
+  "searchBtn": "Search",
+  "loading": "Searching for team members...",
+  "noResults": "No team members found for this booking.",
+  "error": "Could not fetch data. Please check the booking reference and try again.",
+  "emptySearchState": "Enter a booking reference above to view the team.",
+  "workerDetails": "Worker Details",
+  "phone": "Phone Number",
+  "joinedAt": "Assigned At"
+} ,
+"Warehouse": {
+    "Categories": {
+      "title": "Warehouse Categories",
+      "subtitle": "Add and organize main and sub-categories for materials in the system.",
+      "categoryName": "Category Name",
+      "categoryNamePlaceholder": "e.g. AC Spare Parts",
+      "parentCategory": "Main Category (if any)",
+      "selectParent": "Select parent category",
+      "mainCategory": "Main Category (No parent)",
+      "saveBtn": "Add Category",
+      "tableId": "Code",
+      "tableName": "Category Name",
+      "tableParent": "Branched From",
+      "tableActions": "Actions",
+      "noData": "No categories registered yet."
+    } ,
+    "Materials": {
+      "title": "Catalog & Inventory",
+      "subtitle": "Manage items, track quantities, and update material prices.",
+      "kpi": {
+        "totalItems": "Total Items",
+        "lowStock": "Low Stock",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "searchPlaceholder": "Search by item name or SKU...",
+      "addBtn": "Add New Item",
+      "actions": {
+  "edit": "Edit Item",
+  "deactivate": "Deactivate Item",
+  "activate": "Activate Item",
+  "adjust": "Adjust Inventory" ,
+   "addSerial": "add serail"
+
+},
+"card": {
+  "sku": "SKU:",
+  "price": "Selling Price:",
+  "cost": "Cost Price:",
+  "stock": "Available Stock:",
+  "piece": "pcs"
+},
+      "form": {
+        "createTitle": "Add New Item",
+        "editTitle": "Edit Item Details",
+        "name": "Item Name",
+        "sku": "Item Code (SKU)",
+        "category": "Category",
+        "unit": "Unit of Measure (e.g., pcs, m)",
+        "currentCost": "Current Cost",
+        "currentPrice": "Current Price",
+        "isSerialized": "This item has serials (Is Serialized)",
+        "isActive": "Active and available for sale (Is Active)",
+        "cancel": "Cancel",
+        "save": "Add Item",
+        "saveChanges": "Save Changes",
+        "createSuccess": "Item added successfully.",
+        "editSuccess": "Item details updated successfully.",
+        "error": "An error occurred while saving data."
+      }
+    }
+    ,"Serials": {
+      "modalTitle": "Add Device Serial",
+      "modalSubtitle": "Adding a serial automatically increases stock by (+1)",
+      "materialLabel": "Select Material",
+      "selectMaterialPlaceholder": "Choose material...",
+      "loadingMaterials": "Loading...",
+      "noMaterialsFound": "No serialized materials found",
+      "serialLabel": "Printed Serial Number",
+      "serialPlaceholder": "e.g., CARRIER-INV-99201",
+      "cancelBtn": "Cancel",
+      "saveBtn": "Save Serial",
+      "messages": {
+        "success": "Serial added and stock increased successfully",
+        "error": "An error occurred while saving the serial"
+      },
+      "validation": {
+        "materialRequired": "Material selection is required",
+        "serialTooShort": "Serial number is too short",
+        "serialTooLong": "Serial number is too long"
+      }
+    } ,
+   
+    "Explorer": {
+      "title": "Inventory Explorer",
+      "mainStore": "Main Warehouse",
+      "folders": "Folders",
+      "items": "Items",
+      "back": "Back",
+      "subCategories": "Categories",
+      "availableItems": "Available Items",
+      "price": "Selling Price",
+      "stock": "Stock",
+      "currency": "EGP",
+      "unitPiece": "Pcs",
+      "showSerials": "Show Serials",
+      "availableSerials": "Available Serials",
+      "noSerials": "No serials available",
+      "emptySection": "No Data Found",
+      "emptySectionDesc": "This section currently has no subcategories or items.",
+      "loadingStructure": "Loading data...",
+      "loadError": "An error occurred while loading data. Please try again."
+    }
+  } ,
+  "jobExecutions": {
+    "header": {
+      "title": "Review Executed Jobs",
+      "subtitle": "Review and approve field work details and materials."
+    },
+    "filters": {
+      "searchPlaceholder": "Search by booking ref or client...",
+      "statusFilter": "Filter by status",
+      "allStatuses": "All Statuses",
+      "needsReview": "Needs Review",
+      "completed": "Approved & Closed" ,
+      "rejected": "Rejected"
+
+    },
+    "table": {
+      "view": "View",
+      "bookingRef": "Reference",
+      "clientInfo": "Client",
+      "address": "Address",
+      "closedAt": "Closed At",
+      "status": "Status",
+      "loading": "Loading records...",
+      "error": "Error fetching data.",
+      "noData": "No jobs match your search criteria."
+    },
+    "modal": {
+    "title": "Execution Details",
+    "subtitle": "Task execution data and expenses",
+    "clientInfo": "Client Info",
+    "timeline": "Timeline",
+    "startTime": "Start Time",
+    "closeTime": "Close Time",
+    "financials": "Financials",
+    "collected": "Collected Amount",
+    "currency": "EGP",
+    "expenses": "Additional Expenses",
+    "expenseReason": "Expense Reason",
+    "team": "Team",
+    "technician": "Technician",
+    "services": "Executed Services",
+    "materials": "Consumed Materials",
+    "serviceName": "Service Name",
+    "materialName": "Material Name",
+    "quantity": "Qty",
+    "unitPrice": "Unit Price",
+    "total": "Total",
+    "totalServices": "Total Services",
+    "totalMaterials": "Total Materials",
+    "grandTotal": "Grand Total for Task",
+    "notes": "Technician Notes",
+    "photos": "Attached Photos",
+    "stageBefore": "Before",
+    "stageDuring": "During",
+    "stageAfter": "After"
+  },
+    "pagination": {
+      "page": "Page",
+      "of": "of",
+      "totalRecords": "Total records:",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "buttons": {
+      "viewDetails": "View Full Details"
+    }
+  }
+  , "treasury": {
+    "safes": {
+      "title": "Safes Management",
+      "subtitle": "Monitor balances and manage financial wallets",
+      "addBtn": "New Safe",
+      "createTitle": "Create New Safe"
+    },
+    "form": {
+      "name": "Safe Name",
+      "namePlaceholder": "e.g., Main Safe",
+      "type": "Safe Type",
+      "typePlaceholder": "Select Type",
+      "technician": "Technician ID"
+    },
+    "types": {
+      "main": "Main Safe",
+      "bank": "Bank Account",
+      "technician": "Technician Wallet" ,
+      "digitalWallet": "Digital Wallet"
+    },
+    "filters": {
+      "searchPlaceholder": "Search safes by name...",
+      "typeFilter": "All Types",
+      "allTypes": "All Safes"
+    },
+    "table": {
+      "loading": "Loading...",
+      "error": "Error fetching data",
+      "noData": "No safes found matching your search",
+      "id": "ID",
+      "name": "Safe Name",
+      "type": "Category",
+      "balance": "Actual Balance",
+      "status": "Status",
+      "createdAt": "Created At",
+      "actions": "Action"
+    },
+    "buttons": {
+      "deactivate": "Deactivate",
+      "activate": "Activate"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "common": {
+      "cancel": "Cancel",
+      "save": "Save Safe"
+    } 
+    , 
+    "accounts": {
+      "title": "Chart of Accounts",
+      "subtitle": "Manage revenue and expense items",
+      "addBtn": "New Account",
+      "createTitle": "Create New Account",
+      "code": "Account Code",
+      "codePlaceholder": "e.g. 4001",
+      "name": "Item Name",
+      "namePlaceholder": "e.g. Maintenance Revenue",
+      "type": "Type",
+      "typePlaceholder": "Select Type",
+      "types": {
+        "revenue": "Revenue",
+        "expense": "Expense"
+      }
+    }
+  } ,
+  "inventoryTransactions": {
+    "title": "Inventory Transactions",
+    "subtitle": "Track and monitor all incoming and outgoing movements from the main warehouse.",
+    "filters": {
+      "searchPlaceholder": "Search by name, code, reference...",
+      "typeLabel": "Transaction Type",
+      "sourceLabel": "Source",
+      "startDate": "From Date",
+      "endDate": "To Date",
+      "allTypes": "All Types",
+      "in": "IN (Receiving)",
+      "out": "OUT (Issuing)",
+      "allSources": "All Sources",
+      "source_JOB_EXECUTION": "Job Execution",
+      "source_PURCHASE": "Purchase",
+      "source_RETURN": "Return",
+      "source_ADJUSTMENT": "Inventory Adjustment"
+    },
+    "table": {
+      "id": "ID",
+      "material": "Material",
+      "type": "Type",
+      "source": "Source",
+      "quantity": "Qty",
+      "balanceAfter": "Balance",
+      "cost": "Total Cost",
+      "user": "By User",
+      "date": "Date",
+      "notes": "Notes",
+      "noData": "No inventory transactions found matching your criteria."
+    },
+    "pagination": {
+      "page": "Page",
+      "of": "of"
+    }
+  } ,
+  "suppliersManager": {
+    "header": {
+      "title": "Suppliers Management",
+      "subtitle": "Add and manage suppliers' details and monitor financial balances"
+    },
+    "buttons": {
+      "newSupplier": "Add New Supplier",
+      "edit": "Edit",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "saving": "Saving..."
+    },
+    "filters": {
+      "searchPlaceholder": "Search by name, company, phone...",
+      "statusFilter": "Supplier Status",
+      "allStatuses": "All Statuses",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "name": "Supplier Name",
+      "company": "Company",
+      "contact": "Contact Info",
+      "balance": "Financial Balance (Debt)",
+      "status": "Status",
+      "actions": "Actions",
+      "loading": "Loading suppliers...",
+      "error": "An error occurred while loading data.",
+      "noData": "No suppliers have been added yet.",
+      "quickActions": "Quick Actions"
+    },
+    "modal": {
+      "addTitle": "Add New Supplier",
+      "editTitle": "Edit Supplier Details",
+      "name": "Supplier Name",
+      "company_name": "Company Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "tax_number": "Tax Number",
+      "address": "Address",
+      "status": "Supplier Status"
+    },
+    "toasts": {
+      "addSuccess": "Supplier added successfully",
+      "editSuccess": "Supplier details updated successfully",
+      "error": "An error occurred, please try again"
+    }
+  } ,
+  "invoicesManager": {
+  "title": "Purchase Invoices",
+  "subtitle": "Manage and view all supplier invoices",
+  "searchPlaceholder": "Search by Ref or Supplier...",
+  "filters": {
+    "all": "All",
+    "paid": "Paid",
+    "partially_paid": "Partially Paid",
+    "unpaid": "Unpaid"
+  },
+  "table": {
+    "ref": "Invoice Ref",
+    "supplier": "Supplier",
+    "date": "Date",
+    "netAmount": "Net Amount",
+    "paid": "Paid",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "modal": {
+    "title": "Invoice Details",
+    "supplierInfo": "Supplier Info",
+    "supplierName": "Name",
+    "company": "Company",
+    "supplierInvoiceNum": "Supplier Inv No.",
+    "financials": "Financials",
+    "total": "Total",
+    "discount": "Discount",
+    "safe": "Payment Safe",
+    "itemsTitle": "Purchased Items",
+    "material": "Material",
+    "qty": "Qty",
+    "price": "Unit Price",
+    "totalPrice": "Total",
+    "notes": "Notes",
+    "createdBy": "Created By"
+  }
+},
+"treasuryTransactions": {
+  "title": "Treasury Transactions",
+  "subtitle": "Monitor all cash inflows and outflows (IN/OUT)",
+  "searchPlaceholder": "Search notes, safe name, or account...",
+  "filters": {
+    "allTypes": "All Types",
+    "in": "Inflow (IN)",
+    "out": "Outflow (OUT)",
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  },
+  "table": {
+    "id": "ID",
+    "safe": "Safe",
+    "account": "Financial Account",
+    "type": "Type",
+    "amount": "Amount",
+    "reference": "Reference / Doc",
+    "notes": "Notes",
+    "createdBy": "User",
+    "date": "Date"
+  }
+} ,
+"collectionsLedger": {
+  "title": "Technician Collections",
+  "subtitle": "Monitor and receive collected amounts from client jobs to settle wallets",
+  "searchPlaceholder": "Search by technician name, or job ID...",
+  "filters": {
+    "status": "Remittance Status:",
+    "all": "All",
+    "pending": "Pending (Open)",
+    "remitted": "Remitted (Closed)"
+  },
+  "table": {
+    "jobRef": "Job",
+    "technician": "Technician",
+    "amount": "Collected Amount",
+    "date": "Collection Date"
+  },
+  "badges": {
+    "remitted": "Remitted to Safe",
+    "pending": "Pending (In Wallet)"
+  },
+  "actions": {
+    "remit": "Receive & Remit",
+    "noData": "No records match your search",
+    "loading": "Fetching collection records..."
+  },
+  "modal": {
+    "title": "Remit Technician Wallet",
+    "requiredAmount": "Required Wallet:",
+    "actualAmount": "Actual Received Amount",
+    "targetSafe": "Deposit in Safe (Main Safe)",
+    "notes": "Notes (Optional)",
+    "notesPlaceholder": "Enter remittance details...",
+    "cancel": "Cancel",
+    "confirm": "Confirm Deposit",
+    "warningExcess": "Warning: Amount exceeds the original collection value!"
+  }
+} ,
+"expensesLedger": {
+  "title": "Technicians Expenses",
+  "subtitle": "Monitor and approve recorded expenses and settle them directly from technician's wallet.",
+  "searchPlaceholder": "Search by technician name, reason, or job ID...",
+  "filters": {
+    "status": "Approval Status:",
+    "all": "All",
+    "pending": "Pending",
+    "approved": "Approved & Settled",
+    "rejected": "Rejected"
+  },
+  "stats": {
+    "records": "Total Records:",
+    "pendingAmount": "Total Pending:"
+  },
+  "table": {
+    "amount": "Requested Amount",
+    "date": "Registration Date"
+  },
+  "badges": {
+    "approved": "Approved (Settled)",
+    "rejected": "Rejected",
+    "pending": "Pending Approval"
+  },
+  "actions": {
+    "approve": "Review & Approve",
+    "reject": "Reject",
+    "noData": "No records match your search",
+    "loading": "Fetching expenses records..."
+  },
+  "modal": {
+    "title": "Approve & Settle Expense",
+    "requiredAmount": "Requested Amount:",
+    "actualAmount": "Actual Approved Amount to Settle",
+    "infoText": "By approving this expense, the amount will be deducted directly from the technician's wallet to settle his account. No funds will be withdrawn from the main safe.",
+    "notes": "Approval Notes (Optional)",
+    "notesPlaceholder": "Enter approval details...",
+    "cancel": "Cancel",
+    "confirm": "Confirm & Approve",
+    "warningExcess": "Warning: The approved amount exceeds the requested expense amount!"
+  }
+} ,
+"invoicePayment": {
+  "modalTitle": "Record New Payment",
+  "invoiceRef": "Invoice Ref:",
+  "totalAmount": "Total Amount:",
+  "paidAmount": "Previously Paid:",
+  "remainingAmount": "Remaining Balance:",
+  "paymentAmount": "Payment Amount",
+  "paymentMethod": "Payment Method",
+  "cash": "Cash",
+  "transfer": "Bank Transfer / Wallet",
+  "pos": "POS Machine",
+  "safe": "Deposit to Safe",
+  "account": "Revenue Account",
+  "notes": "Payment Notes (Optional)",
+  "cancel": "Cancel",
+  "confirm": "Record Payment & Update Balance",
+  "warningExceeds": "Warning: The entered amount exceeds the remaining balance!"
+}
+
+}
